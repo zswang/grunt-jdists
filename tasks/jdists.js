@@ -4,7 +4,7 @@
  * Code block processing tools
  * @author
  *   zswang (http://weibo.com/zswang)
- * @version 0.0.4
+ * @version 0.0.1
  * @date 2015-08-24
  */
 var jdists = require('jdists');
