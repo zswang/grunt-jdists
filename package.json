@@ -1,0 +1,43 @@
+{
+  "name": "grunt-jdists",
+  "version": "0.0.0",
+  "description": "Code block processing tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zswang/grunt-jdists.git"
+  },
+  "keywords": [
+    "grunt",
+    "plugin",
+    "jdists",
+    "block"
+  ],
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zswang/grunt-jdists/issues"
+  },
+  "homepage": "https://github.com/zswang/grunt-jdists",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.8.0",
+    "grunt-contrib-nodeunit": "^0.3.0",
+    "load-grunt-tasks": "^0.3.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "dependencies": {
+    "jdists": "^1.0.5"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "lint": "grunt jshint",
+    "dist": "jdists src/jdists.js -o tasks/jdists.js"
+  },
+  "files": [
+    "tasks"
+  ]
+}
