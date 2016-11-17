@@ -4,8 +4,8 @@
  * Code block processing tools
  * @author
  *   zswang (http://weibo.com/zswang)
- * @version 0.0.1
- * @date 2015-08-24
+ * @version 2.0.0
+ * @date 2016-11-17
  */
 var jdists = require('jdists');
 module.exports = function (grunt) {

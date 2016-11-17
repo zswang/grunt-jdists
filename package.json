@@ -1,6 +1,6 @@
 {
   "name": "grunt-jdists",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Code block processing tools",
   "repository": {
     "type": "git",
@@ -27,16 +27,17 @@
     "grunt-contrib-clean": "^0.5.0",
     "grunt-contrib-jshint": "^0.8.0",
     "grunt-contrib-nodeunit": "^0.3.0",
-    "load-grunt-tasks": "^0.3.0",
-    "jshint-stylish": "^1.0.0"
+    "jfogs": "0.0.15",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^0.3.0"
   },
   "dependencies": {
-    "jdists": "^1.0.5"
+    "jdists": "^2.0.0"
   },
   "scripts": {
     "test": "grunt test",
     "lint": "grunt jshint",
-    "dist": "jdists src/jdists.js -o tasks/jdists.js"
+    "dist": "jdists src/jdists.js -o tasks/jdists.js && npm run test"
   },
   "files": [
     "tasks"
